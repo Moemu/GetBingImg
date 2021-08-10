@@ -49,7 +49,7 @@ if choose==2:
     if getmouth==1:
         getmouth='Jan'
     elif getmouth==2:
-        getmouth='Fbr'
+        getmouth='Feb'
     elif getmouth==3:
         getmouth='Mar'
     elif getmouth==4:
