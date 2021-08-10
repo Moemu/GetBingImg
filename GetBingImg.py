@@ -27,6 +27,7 @@ if choose==1:
     open(name, 'wb').write(img.content)
     input('获取成功，按任意键退出')
 if choose==2:
+    print('仅支持一年内')
     year = time.strftime('%Y')
     word = '输入年，默认为'+year+'(4位): '
     getyear = input(word)
@@ -77,7 +78,7 @@ if choose==2:
     input('获取成功，按任意键退出')
 
 if choose==3:
-    print('仅支持同一月内')
+    print('仅支持一个星期内')
     # 不同天的时间差
     d2 = realtime 
     d1_1 = input('输入要查询的时间(dd,若不填则默认是当天)：')
